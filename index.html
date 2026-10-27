@@ -1,135 +1,197 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Portfolio</title>
-</head>
-<body>
-                                     <!---NavBar---->
-    <nav>
-        <div><h1>Muhammad Aqib</h1></div>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Skill">Skill</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </nav>
-                                    <!----Home---> 
-    <section id="Home">
-        <div>
-            <p>Hello , I'm</p>
-            <h1>Muhammad Aqib</h1>
-            <h2>Aspiring Frontend Developer</h2>
-            <p>
-                I am computer science graduate passionate about building responsive websites. 
-            </p>
-            <a href="#Projects">View My Work</a>
-            <a href="#Contact">Contact Me</a>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Portfolio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="Css\style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400..700&family=JetBrains+Mono:wght@400;500&display=swap">
 
-        </div>
-    </section>
-                                     <!----About---> 
-    <section id="About">
-        <h2>About Me </h2>
-        <p>I am a Computer Science graduate with a strong interest in web development and creating user-friendly digital experiences. I have a foundation in HTML, CSS, and Bootstrap, and I am currently improving my JavaScript skills to build more interactive and responsive websites.
-        I enjoy learning new technologies, solving problems, and turning ideas into practical web projects. I have worked on projects such as a restaurant website and a fashion website, which have helped me improve my frontend development and design skills.
-        My goal is to become a skilled Frontend Developer and continue growing toward full-stack development. I am always eager to learn, take on new challenges, and contribute to meaningful projects.</p>
-    </section>
-                                    <!----Skill---> 
-    <section id="Skill">
-        <h2>My Skills</h2>
-        <p>Frontend Development</p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-        </ul>
-        <p>Web development</p>
-        <ul>
-            <li>Responsive Web Design</li>
-            <li>Basic UI/UX Principles</li>
-        </ul>
-        <p>Tools</p>
-       <ul>
-            <li>Git/GitHub </li>
-            <li>Visual Studio Code</li>
-        </ul>
-    </section>
-                                    <!----Projects---> 
-    <section id="Projects">
-        <h2>My Projects</h2>
 
-         <!--First Project-->
-        <div class="project-container">
-            <div class="project-card">
-                <img src="images/royalfood.png" alt="Royal Foods - Restaurant Website">
-            </div>
-            <div class="project-info">
-                <h3>Royal Foods - Restaurant Website</h3>
-                <p>A responsive restaurant website built using HTML, CSS, Bootstrap, and JavaScript. The project includes navigation, menu sections, responsive layouts, and interactive functionality.</p>
-            </div>
-            <div class="tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>Bootstrap</span>
-                <a href="https://github.com/muhammedaqib816-dev" target="_blank">GitHub</a>
-                <a href="https://muhammedaqib816-dev.github.io/Royal-Foods/" target="_blank">Live Demo</a>
-            </div>
-            
+<div class="ambient" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#home" aria-label="Muhammad Aqib, back to top"><img class="mono" src="images/me.jpeg" alt="Muhammad Aqib"><span>Muhammad Aqib</span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navList" aria-label="Open menu"><span></span></button>
+    <ul class="nav-list" id="navList">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+
+<main class="wrap">
+
+  <!-- Home -->
+  <section class="hero" id="home">
+    <div class="hero-copy">
+      <div class="status rise" style="--i:0"><i></i>Open to frontend developer opportunities</div>
+      <p class="hello rise" style="--i:1">Hello, I'm</p>
+      <h1 class="rise" style="--i:2"><span class="grad-text">Muhammad Aqib</span></h1>
+      <h2 class="rise" style="--i:3">Frontend Developer</h2>
+      <p class="lead rise" style="--i:4">Computer science graduate and frontend developer with 2 years of experience building responsive, easy-to-use websites with HTML, CSS, Bootstrap and JavaScript.</p>
+      <div class="cta rise" style="--i:5">
+        <a class="btn primary" href="#projects">View My Work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+    </div>
+    <div class="orbit rise" style="--i:3" aria-hidden="true">
+      <div class="ring"></div><div class="ring r2"></div>
+      <div class="core"><img src="images/me.jpeg" alt="Muhammad Aqib"></div>
+      <div class="track">
+        <div class="chip" style="--a:-90deg"><span>HTML</span></div>
+        <div class="chip" style="--a:30deg"><span>CSS</span></div>
+        <div class="chip" style="--a:150deg"><span>Bootstrap</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="block" id="about">
+    <div class="sec-head reveal">
+      <div class="kicker">Who I am</div>
+      <h2>About me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm a <strong>Computer Science graduate</strong> and frontend developer with 2 years of experience building responsive, user-friendly websites. I use HTML, CSS, Bootstrap and JavaScript to create interactive web experiences.</p>
+        <p>I enjoy learning new technologies, solving problems and turning ideas into practical web projects. A restaurant website and a fashion website have sharpened both my frontend and my design skills.</p>
+        <p>My goal is to keep growing as a skilled <strong>Frontend Developer</strong>, take on new challenges and contribute to meaningful web projects.</p>
+      </div>
+      <div class="facts reveal">
+        <div class="card fact"><small>Focus</small><b>Responsive frontend</b></div>
+        <div class="card fact"><small>Experience</small><b>2 years in frontend development</b></div>
+        <div class="card fact"><small>Core skills</small><b>HTML, CSS, Bootstrap &amp; JavaScript</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="block" id="skills">
+    <div class="sec-head reveal">
+      <div class="kicker">What I work with</div>
+      <h2>My skills</h2>
+    </div>
+    <div class="skill-grid">
+      <article class="card skill reveal">
+        <h3><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span>Frontend development</h3>
+        <ul class="tags"><li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">Bootstrap</li><li class="tag">JavaScript</li></ul>
+      </article>
+      <article class="card skill reveal">
+        <h3><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>Web development</h3>
+        <ul class="tags"><li class="tag">Responsive web design</li><li class="tag">Basic UI/UX principles</li></ul>
+      </article>
+      <article class="card skill reveal">
+        <h3><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></span>Tools</h3>
+        <ul class="tags"><li class="tag">Git / GitHub</li><li class="tag">Visual Studio Code</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="block" id="projects">
+    <div class="sec-head reveal">
+      <div class="kicker">What I've built</div>
+      <h2>My projects</h2>
+    </div>
+    <div class="proj-grid">
+
+      <article class="card proj reveal">
+        <div class="thumb" role="img" aria-label="Royal Foods restaurant website screenshot">
+          <img src="images/royalfood.png" alt="Royal Foods restaurant website screenshot">
         </div>
-<hr>
-        <!--Second Project-->
-         <div class="project-container">
-            <div class="project-card">
-                <img src="images/fashio.png" alt="Fashio-Garments Website">
-            </div>
-            <div class="project-info">
-                <h3>Fashio - Garments Website</h3>
-                <p>A modern fashion website designed with a focus on user experience and responsive design. The site features a clean layout, intuitive navigation, and interactive elements to showcase clothing items.</p>
-            </div>
-            <div class="tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>Bootstrap</span>
-                <a href="https://github.com/muhammedaqib816-dev" target="_blank">GitHub</a>
-                <a href="https://muhammedaqib816-dev.github.io/Fashio-Clothing-Website-/" target="_blank">Live Demo</a>
-            </div>
-            
+        <div class="proj-body">
+          <div class="proj-kicker">Restaurant website</div>
+          <h3>Royal Foods</h3>
+          <p>A responsive restaurant website built with HTML, CSS, Bootstrap and JavaScript. It includes navigation, menu sections, responsive layouts and interactive functionality.</p>
+          <ul class="tags"><li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">Bootstrap</li><li class="tag">JavaScript</li></ul>
+          <div class="proj-links">
+            <a class="link live" href="https://muhammedaqib816-dev.github.io/Royal-Foods/" target="_blank" rel="noopener">Live demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+            <a class="link" href="https://github.com/muhammedaqib816-dev" target="_blank" rel="noopener">GitHub</a>
+          </div>
         </div>
-      
-    </section>
-                                    <!----Education---> 
-    <section id="Education">
-        <h2>Education</h2>
-        <div class="right">
-        <p>2022 - 2026</p>
+      </article>
+
+      <article class="card proj reveal">
+        <div class="thumb" role="img" aria-label="Fashio garments website screenshot">
+          <img src="images/fashio.png" alt="Fashio garments website screenshot">
+        </div>
+        <div class="proj-body">
+          <div class="proj-kicker">Fashion website</div>
+          <h3>Fashio</h3>
+          <p>A modern fashion website designed around user experience and responsive design. It has a clean layout, intuitive navigation and interactive elements that showcase clothing items.</p>
+          <ul class="tags"><li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">Bootstrap</li></ul>
+          <div class="proj-links">
+            <a class="link live" href="https://muhammedaqib816-dev.github.io/Fashio-Clothing-Website-/" target="_blank" rel="noopener">Live demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+            <a class="link" href="https://github.com/muhammedaqib816-dev" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="block" id="education">
+    <div class="sec-head reveal">
+      <div class="kicker">Where I studied</div>
+      <h2>Education</h2>
+    </div>
+    <div class="timeline">
+      <article class="card t-item reveal">
+        <span class="t-dot"></span>
+        <div class="t-when">2022 – 2026</div>
         <h3>Bachelor of Science in Computer Science</h3>
-        <p>International Islamic University Islamabad</p>
-        
-        </div>
-        <div class="left">
-        <p>Sept 2024 - 2.5 months</p>
+        <p class="org">International Islamic University Islamabad</p>
+      </article>
+      <article class="card t-item reveal">
+        <span class="t-dot"></span>
+        <div class="t-when">September 2024 · 2.5 months</div>
         <h3>Web Designer and Developer</h3>
-        <p>PNY Training Institute</p>
-        <p>CourseWork : HTML, CSS, Bsic JavaScript</p>
-        
+        <p class="org">PNY Training Institute</p>
+        <p class="detail">Coursework: HTML, CSS, Bootstrap and JavaScript.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="block" id="contact">
+    <div class="card contact reveal">
+      <div class="kicker">Get in touch</div>
+      <h2 style="margin-top:16px">Let's build something <span class="grad-text">together.</span></h2>
+      <p class="sub">I'm looking for an internship or an entry-level frontend role. Send me a message and I'll get back to you.</p>
+      <div class="contact-list">
+        <div class="c-item">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+          <div class="txt"><small>Email</small><span class="val" id="emailVal">muhammadaqib.816@gmail.com</span></div>
+          <button class="copy" type="button" data-copy="#emailVal">Copy</button>
         </div>
-    </section>
-                                    <!----Contact---> 
-    <section id="Contact">
-        <h2>Contact Me</h2>
-        <p>Let's connect and build something together.</p>
-        <p>Email: muhammadaqib.816@gmail.com</p>
-        <p>Phone: +92 348 5777146</p>
-    </section>
-                                     <!--Footer-->
-    <footer>
-        <p>© 2026 Aqib. All Rights Reserved.</p>
-    </footer>                                 
+        <div class="c-item">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+          <div class="txt"><small>Phone</small><span class="val" id="phoneVal">+92 348 5777146</span></div>
+          <button class="copy" type="button" data-copy="#phoneVal">Copy</button>
+        </div>
+        <div class="c-item">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span>
+          <div class="txt"><small>GitHub</small><a class="val" href="https://github.com/muhammedaqib816-dev" target="_blank" rel="noopener">muhammedaqib816-dev</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p>© 2026 Muhammad Aqib. All rights reserved.</p>
+  <a class="top" href="#home">Back to top <span aria-hidden="true">↑</span></a>
+</footer>
+
+<script src="js/script.js" ></script>
 </body>
 </html>
